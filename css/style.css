@@ -1,0 +1,124 @@
+.container {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+}
+
+
+.border {
+    width: 700px;
+    height: 585px;
+    border: 5px solid #AF9155;
+    border-radius: 20px;
+}
+@media screen and (max-width: 780.98px) {
+    .border{
+        width: 500px;
+    }
+}
+@media screen and (max-width: 560.98px) {
+    .border{
+        width: 300px;
+        height: 560px;
+    }
+}
+.title {
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 70px;
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+@media screen and (max-width: 560.98px) {
+    .title{
+        font-size: 25px;
+    }
+}
+.form {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    justify-content: center;
+    flex-flow: column;
+}
+
+.input {
+    height: 50px;
+    width: 300px;
+    font-size: 20px;
+    padding-left: 25px;
+    border: 3px solid #AF9155;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 560.98px) {
+    .input {
+        width: 210px;
+    }
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+    flex-flow: column;
+}
+
+button {
+    height: 50px;
+    margin-top: 30px;
+    width: 238px;
+    background-color: #AF9155;
+    color: white;
+    border-radius: 19px;
+    border: 0;
+    font-size: 15px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #6d5b38;
+    cursor: pointer;
+}
+@media screen and (max-width: 560.98px) {
+    button {
+        width: 195px;
+    }
+}
+
+.text {
+    color: #AF9155;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+.text:hover {
+    text-decoration: underline #423a28;
+}
+
+.text__account {
+    color: #343433;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+
+@media screen and (max-width: 560.98px) {
+    .text {
+        font-size: 14px;
+    }
+}
+
+span {
+    color: #AF9155;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+span:hover {
+    text-decoration: underline #4d4129;
+}
